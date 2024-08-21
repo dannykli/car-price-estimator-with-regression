@@ -4,7 +4,7 @@ This repository contains the code for my A-level coursework project: a car price
 The project was split into two stages; the first stage being where I train and test different regression models on the data, and the second being where the optimal regression model is integrated into the final car price estimator system. 
 
 In the regression analysis part, multiple models were trained, tuned and tested. These models include a simple linear model, a multi linear model (using gradient descent optimisation), a k-nearest neighbours model and a decision tree model. In order to obtain a tuned model, each model had to undergo a series of processes including data preprocessing, feature selection and hyperparameter fine-tuning. After obtaining the tuned models, each model was tested with holdout data, which acted as a final test to gauge how well the models could could generalise and predict new, unseen data. I have outlined this regression analysis process that I have carried out in more detail [here](https://youtu.be/H5B1dWf65uo).
-<figure>
+<figure style="margin-left: 50px;">
   <img src="./docs/FastTreePerformanceTable.png" alt="drawing" width="450"/>
   <figcaption>Feature selection process for the tree-based model</figcaption>
 </figure>
